@@ -14,15 +14,3 @@ document.querySelectorAll(".links a").forEach((link) =>
     nav.classList.remove("active");
   })
 );
-
-// videos.forEach((video) => {
-//   ScrollTrigger.create({
-//     trigger: video,
-//     start: "top top",
-//     end: "bottom bottom",
-
-//     onEnter: () => {
-//       video.play();
-//     },
-//   });
-// });

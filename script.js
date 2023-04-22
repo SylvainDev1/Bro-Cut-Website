@@ -1,8 +1,6 @@
 const burger = document.querySelector("nav svg");
 const nav = document.querySelector(".links");
 
-// const videos = gsap.utils.toArray(".video");
-
 burger.addEventListener("click", () => {
   burger.classList.toggle("active");
   nav.classList.toggle("active");
